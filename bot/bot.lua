@@ -93,7 +93,6 @@ function create_config( )
     "Msg-Checks",	
     "Me",
     "Plugins",
-    "Report",
     "Rmsg",
     "Tools",
     "Write"
