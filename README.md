@@ -29,7 +29,7 @@ chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/MRMahDiRoO/RadikalBot.git && cd RadikalBot && chmod +x radikal.sh && chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh && ./radikal.sh install && ./radikal.sh
+cd $HOME && git clone https://github.com/RadikalBotTeam/RadikalBot.git  && cd RadikalBot && chmod +x radikal.sh && chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh && ./radikal.sh install && ./radikal.sh
 ```
 
 * * *
