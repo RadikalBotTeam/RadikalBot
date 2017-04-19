@@ -89,31 +89,26 @@ function create_config( )
     "Fun",
     "GetProf",		
     "GroupManager",
-    "Info",
     "IdPw",	
     "Msg-Checks",	
-    "MuteTime",
-	"Me",
+    "Me",
     "Plugins",
     "Report",
     "Rmsg",
-    "Time",
     "Tools",
     "Write"
 	},
-    sudo_users = {377450049},
+    sudo_users = {304240834},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[» MaTaDoR v5.2
+    info_text = [[» RadikalBoT v1.0
 		
 		»Sudo BoT :
-		» @MahDiRoO
+		» @ariasudo
 		
-		»Shop Source v OrginaL
-		» @MahDiRoO
+
         
-		v5 https://github.com/MaTaDoRrOo/MaTaDoR
 GoOd luck ;))
 ]],
   }
