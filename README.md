@@ -1,4 +1,13 @@
-# [RadikalBot](https://telegram.me/RadikalBotTeam)
+<p 
+    <div align="center">
+    <a href="https://telegram.me/titanteams">
+        <img src="http://upir.ir/951/guest/Untitled-7.png" hspace="10" width="150">
+    </a>
+    <a href="https://telegram.me/mohammadrezajiji">
+        <img src="http://upir.ir/951/guest/Untitled-6.png" width="150">
+    </a>
+</div>
+<a href="https://telegram.me/titanteams"><font size="100">parsol.v3</font></a>
 
 
 * * *
