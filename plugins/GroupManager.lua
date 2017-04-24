@@ -3565,7 +3565,7 @@ end
 if matches[2] == "join" or matches[2] == "ورود" then
 return unlock_join(msg, data, target)
 end
-if matches[2] == 'cmds' then
+if matches[2] == 'cmds' or matches[2] == 'دستورات' then
 			redis:del('group:'..msg.to.id..':cmd')
 			if not lang then
 			return "*#¢мđš* _ρøšтłиg łš иøт lø¢κeđ_🔓\n*〰〰〰〰〰〰〰〰*\n*øяđeявч*: [@"..(check_markdown(msg.from.username) or 'No υʂҽɾɳαɱҽ').."]" 
@@ -3577,7 +3577,7 @@ end
 
 if matches[1] == "mute" and is_mod(msg) or matches[1]== "بیصدا" and is_mod(msg) or matches[1] == "Mute" and is_mod(msg) then
 local target = msg.to.id
-if matches[2] == 'all' then
+if matches[2] == 'all' or matches[2] == 'همه' then
 local hash = 'muteall:'..msg.to.id
 redis:set(hash, true)
 if not lang then
@@ -3635,7 +3635,7 @@ end
 
 if matches[1] == "unmute" and is_mod(msg) or matches[1]=="باصدا" and is_mod(msg) or matches[1] == "Unmute" and is_mod(msg) then
 local target = msg.to.id
- if matches[2] == 'all' then
+ if matches[2] == 'all' or matches[2] == 'همه' then
          local hash = 'muteall:'..msg.to.id
         redis:del(hash)
 		if not lang then
@@ -4815,17 +4815,17 @@ _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ]]
 elseif lang then
 text = [[
-!mute all
+بیصدا همه
 Mute groups
-!mute (hour) (minute) (seconds)
+بیصدا (hour) (minute) (seconds)
 Mute group at this time 
-!mutehours (number)
+ساعت بیصدا (number)
 Mute group at this time 
-!muteminutes (number)
+دقیقه بیصدا (number)
 Mute group at this time 
-!muteseconds (number)
+ثانیه بیصدا (number)
 Mute group at this time 
-!unmute all
+بازکردن همه
 Unmute group at this time 
 
 *> زبان ربات فارسی !*
@@ -4890,6 +4890,7 @@ end
      end
 	end
 end
+end	
 -----------------------------------------
 local function pre_process(msg)
    local chat = msg.to.id
@@ -4953,7 +4954,6 @@ end
 		end
 	end
 -- return msg
- end
  end
 return {
 patterns ={
