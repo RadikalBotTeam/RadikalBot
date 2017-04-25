@@ -4133,7 +4133,7 @@ if not lang then
 
 if matches[1] == "help" and is_mod(msg) or matches[1] == "Help" and is_mod(msg) or matches[1] == "راهنما" and is_mod(msg) then
 if not lang then
-text = [[🔖нєℓρ яα∂ιкαℓвσт*
+text = [[🔖*нєℓρ яα∂ιкαℓвσт*
 
 ⚡️*тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 
@@ -4167,7 +4167,7 @@ _To Change The LanGuage_
 🎭 *ƇнαηηєƖ :* @RadikalBotTeam
 ]]
 elseif lang then
-text = [[🔖нєℓρ яα∂ιкαℓвσт*
+text = [[🔖*нєℓρ яα∂ιкαℓвσт*
 
 ⚡️*برای دیدن دستورات مورد نظر خود ، مورد دلخواه را ارسال کنید*
 
@@ -4212,7 +4212,7 @@ end
 
 if matches[1] == "sudohelp" and is_mod(msg) or  matches[1] == "Sudohelp" and is_mod(msg) or  matches[1] == "راهنمای سودو" and is_mod(msg) then
 text = [[
-🔖нєℓρ яα∂ιкαℓвσт*
+🔖*нєℓρ яα∂ιкαℓвσт*
 
 *Visudo* `[username|id|reply]`
 🔹_اضافه کردن سودو_
