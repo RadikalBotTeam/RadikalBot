@@ -101,14 +101,19 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[» RadikalBoT v1.0
-		
-		»Sudo BoT :
-		» @ariasudo
-		
+    info_text = [[》RadikalBoT v1.0
 
-        
-GoOd luck ;))
+》https://github.com/RadikalBotTeam/RadikalBot
+
+》Admins :
+》@ariasudo
+
+
+》Our channel :
+》@RadikalBotTeam
+
+》Special thanks to :
+》@MahDiRoO
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
