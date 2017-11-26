@@ -94,7 +94,8 @@ function create_config( )
     "Me",
     "Plugins",
     "Rmsg",
-    "Tools",
+    "Tools",	
+    "Pardakht", 		
     "Write"
 	},
     sudo_users = {353171541},
