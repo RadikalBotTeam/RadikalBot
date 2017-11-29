@@ -107,11 +107,11 @@ function create_config( )
 》https://github.com/RadikalBotTeam/RadikalBot
 
 》Admins :
-》@ariasudo
+》@SUDORADICAL
 
 
 》Our channel :
-》@RadikalBotTeam
+》@RadicalBotTeam
 
 》Special thanks to :
 》@MahDiRoO
