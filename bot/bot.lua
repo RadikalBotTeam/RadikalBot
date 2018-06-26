@@ -96,7 +96,8 @@ function create_config( )
     "Rmsg",
     "Tools",	
     "Pardakht", 		
-    "Write"
+    "Write",
+    "openchat"		
 	},
     sudo_users = {353171541},
     admins = {},
